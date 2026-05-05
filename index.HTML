@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InfoKita News</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* HEADER */
+header {
+    background: #1e1e2f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav {
+    background: #ff3c00;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* LAYOUT */
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ARTIKEL */
+section {
+    flex: 3;
+}
+
+article {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: scale(1.02);
+}
+
+article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+article .content {
+    padding: 15px;
+}
+
+.category {
+    color: #ff3c00;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+article h2 {
+    margin: 10px 0;
+}
+
+/* SIDEBAR */
+aside {
+    flex: 1;
+}
+
+.sidebar-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar-box h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar-box ul {
+    list-style: none;
+}
+
+.sidebar-box li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* FOOTER */
+footer {
+    background: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>InfoKita News</h1>
+    <p>Portal Berita Terupdate Hari Ini</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Kuliner</a>
+    <a href="#">Transportasi</a>
+    <a href="#">Kriminal</a>
+</nav>
+
+<main>
+
+<section>
+
+<article>
+    <img src="Dubai Chewy.jpg" alt="">
+    <div class="content">
+        <p class="category">KULINER</p>
+        <h2>Fenomena camilan viral kembali memicu lonjakan permintaan</h2>
+        <p>Dubai Chewy Cookie belakangan ramai di media sosial, terutama di FYP pencinta kuliner Korea. Teksturnya yang kenyal dan lengket bikin banyak orang penasaran. Di balik viralnya camilan ini, ada cerita menarik tentang bagaimana resep tersebut lahir. Sosok di balik kemunculan Dubai Chewy Cookie adalah Li Yunmin, figur di balik Mon Cookie Korea. Produk ini juga dikenal dengan nama Do Jong-Koo.</p>
+    </div>
+</article>
+
+<article>
+    <img src="Kereta tabrakan.webp" alt="">
+    <div class="content">
+        <p class="category">TRANSPORTASI</p>
+        <h2>Kecelakaan Kereta Api Libatkan KRL dan KA Argo Bromo Anggrek, Penyelidikan Masih Berlangsung</h2>
+        <p>Menurut keterangan sementara dari petugas di lokasi kejadian, kedua kereta mengalami benturan yang mengakibatkan kerusakan pada beberapa bagian gerbong. Tim evakuasi segera dikerahkan untuk menangani situasi serta memastikan keselamatan para penumpang dan awak kereta.</p>
+    </div>
+</article>
+
+<article>
+    <img src="Kriminal.jpg" alt="">
+    <div class="content">
+        <p class="category">Kriminal</p>
+        <h2>Dendam dan Nafsu Menguasai Harta Berujung Tragedi Berdarah Di Pekanbaru, Riau.</h2>
+        <p>Polisi tangkap 5 pelaku perampokan dan pembunuhan. Aksi pertama dilakukan pada 8 April 2026. Saat itu, mereka menyasar rumah korban dan berhasil membawa kabur uang jutaan rupiah.</p>
+    </div>
+</article>
+
+</section>
+
+<aside>
+
+<div class="sidebar-box">
+    <h3>🔥 Berita Populer</h3>
+    <ul>
+        <li>Muka Glowing Menggunakan Air Beras</li>
+        <li>Alexandra Trustova kembali lagi di Dunia Ice Skating</li>
+        <li>Bahaya AI Dalam Dunia Teknologi</li>
+        <li>Bukti Keterbatasan Bukan Penghalang,Siswa MA 13 Borong Prestasi</li>
+    </ul>
+</div>
+
+<div class="sidebar-box">
+    <h3>📌 Kategori</h3>
+    <ul>
+        <li>Politik</li>
+        <li>Olahraga</li>
+        <li>Ekonomi</li>
+        <li>Hiburan</li>
+    </ul>
+</div>
+
+</aside>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 InfoKita News | Dibuat oleh Mahasiswi STTI NIIT I-TECH</p>
+</footer>
+
+</body>
+</html>
